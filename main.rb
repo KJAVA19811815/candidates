@@ -7,6 +7,18 @@ require './filters'
 
 ## Your test code can go here
 
-# binding.pry
+ # binding.pry
 
-pp @candidates
+# pp @candidates
+
+# @candidates.each do |c|
+#   p experienced?(c)
+#   p github(c)
+#   p age(c)
+#   p applied(c)
+#
+# end
+
+  # p find(5)
+  pp qualified_candidates(@candidates)
+  pp ordered_by_qualifications(@candidates)
